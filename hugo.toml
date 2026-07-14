@@ -3,6 +3,10 @@ locale = 'en-us'
 title = 'lottiethewitch - UNDER CONSTRUCTION'
 theme = 'lottie'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   description = "A website. :)"
 
