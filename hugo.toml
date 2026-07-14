@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'lottiethewitch - UNDER CONSTRUCTION'
-theme = 'loficode'
+theme = 'lottie'
 
 [params]
   description = "A website. :)"
