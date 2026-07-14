@@ -2,3 +2,47 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'lottiethewitch - UNDER CONSTRUCTION'
 theme = 'loficode'
+
+[params]
+  description = "A website. :)"
+
+  [params.author]
+    name = "lottie :)"
+    image = "images/profile.png"
+
+  # Profile section
+  [params.profile]
+    name = "lottie :)"
+    tagline = "That'sa Lottie"
+    photo = "/images/profile.png"
+
+  # Social links - Supported platforms: github, twitter, linkedin, email, mastodon, youtube, instagram, facebook
+  [params.social]
+    github = "lottiethewitch"
+    # linkedin = "your-linkedin-username"
+    # email = "your-email@example.com"
+    # mastodon = "https://mastodon.social/@yourusername"
+    # youtube = "https://youtube.com/@yourusername"
+    # instagram = "your-instagram-username"
+    # facebook = "your-facebook-username"
+
+# Navigation menu
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 20
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 30
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 40
