@@ -33,7 +33,7 @@ theme = 'lottie-theme'
 # Navigation menu
 [[menu.main]]
   name = "About"
-  url = "/about/about.md"
+  url = "/about/"
   weight = 10
 
 [[menu.main]]
