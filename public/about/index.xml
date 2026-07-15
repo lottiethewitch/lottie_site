@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lottiethewitch - UNDER CONSTRUCTION</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on lottiethewitch - UNDER CONSTRUCTION</description>
+    <title>Abouts on lottiethewitch - UNDER CONSTRUCTION</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on lottiethewitch - UNDER CONSTRUCTION</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Jul 2026 20:35:34 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/about/</link>
