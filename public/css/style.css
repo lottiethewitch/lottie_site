@@ -2,7 +2,6 @@
 
 body {
   color: #333;
-  background: #5b6b70;
   background: linear-gradient(90deg, rgba(91, 107, 112, 1) 0%, rgba(87, 122, 199, 1) 72%, rgba(99, 119, 207, 1) 100%);
   text-decoration-color: #FFFF;
   font-size: 125%;
