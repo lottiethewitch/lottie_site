@@ -6,10 +6,11 @@ title = 'About'
 
 Hello there 👽
 
-I love computers. That's all.
+## I love computers. That's all.
 
-Former disgruntled frontend mobile dev. Current jack of all trades anything dev. Not-so-Funemployed lol.
-Enjoys
+Former frontend mobile dev. Current jack of all trades anything dev. Not-so-Funemployed lol.
+
+### Likes:
 
     Linux
     Nix
@@ -20,18 +21,25 @@ Enjoys
     Weird art (Made by humans)
     Hyperpop
 
-Current tech stack:
+### Dislikes
+    AI "art" and slop
+    Tech Bro culture
 
-    Neovim Stan. My current configs are in my NixOS Home Manager files.
-    Obsidian and (soon) emacs for documentation.
-    NIXOS == Gen1 Thinkpad (Anakin) + Desktop (Vader).
-    LLM: Whatever I can run on my graphics card lol you think i'd willingly pay for stackoverflow copy+paste
-    jetbrains products bc Android.
-    Proxmox Server for Postgres w/ flask backends.
-    Languages: Some C++, Python, Nix. I want to learn Rust after.
-    like three computers and a steamdeck
+## Current tech stack:
 
-Current Projects:
+    - Neovim Stan. 
+        - My current configs are in my NixOS Home Manager files.
+    - Obsidian and (soon) emacs for documentation.
+    - NIXOS 
+        - Machines: Gen1 Thinkpad (Anakin) + Desktop (Vader).
+    - LLM: Whatever I can run on my graphics card lol you think i'd willingly pay for stackoverflow copy+paste
+        - I mostly just tell it im eating 5 lbs. of salami in my bed
+    - jetbrains products bc Android.
+    - Proxmox Server for Postgres w/ flask backends.
+    - Languages: Some C++, Python, Nix. New to: CSS/HTML/JS. I want to learn Rust eventually.
+    - like three computers and a steamdeck
+
+## Current Projects:
 
     💻 local Proxmox server for streaming movies/shows and also backend projects :}
     🙇‍♀️ CSE hyperbolic time chamber
@@ -42,3 +50,4 @@ Current Projects:
     🐍 Python scripts for little automations
 
 Use your brain! You only get one ✨
+
