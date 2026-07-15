@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'lottiethewitch - UNDER CONSTRUCTION'
-theme = 'lottie'
+theme = 'lottie-theme'
 
 [caches]
   [caches.images]
