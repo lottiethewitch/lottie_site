@@ -38,6 +38,7 @@
             packages = with pkgs; [
               nodejs
 			  vale
+			  sass # scss animations  
               self.formatter.${system}
             ];
           };

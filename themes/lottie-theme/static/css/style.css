@@ -1,5 +1,7 @@
 /* LAYOUT */
 
+@import url("stars.css");
+
 header {
   /*
   animation-name: topBarAnimate;
@@ -11,6 +13,7 @@ header {
 body {
   color: #fff;
   background: linear-gradient(0deg,rgba(173, 123, 94, 1) 0%, rgba(50, 73, 122, 1) 51%, rgba(14, 15, 33, 1) 100%);
+  background-size: cover;
   font-size: 125%;
   line-height: 1.5;
   max-width: 45rem;
@@ -86,4 +89,18 @@ div {
   background-color: red;
   animation-name: topBarAnimate;
   animation-duration: 5s;
+}
+
+/* I got this from a medium article:
+*  https://ibdul.medium.com/shining-bright-the-starry-css-background-that-lit-up-my-ui-d19acb862dff
+*  thank u Ibrahim Abdulhameed its really cool
+*/
+
+@keyframes animateStars {
+ from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
 }
