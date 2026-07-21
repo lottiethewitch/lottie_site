@@ -10,10 +10,18 @@ header {
   */
 }
 
+html {
+  background: linear-gradient(0deg,rgba(173, 123, 94, 1) 0%, rgba(50, 73, 122, 1) 51%, rgba(14, 15, 33, 1) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
 body {
   color: #fff;
-  background: linear-gradient(0deg,rgba(173, 123, 94, 1) 0%, rgba(50, 73, 122, 1) 51%, rgba(14, 15, 33, 1) 100%);
-  background-size: cover;
   font-size: 125%;
   line-height: 1.5;
   max-width: 45rem;
