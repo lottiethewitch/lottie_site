@@ -10,7 +10,18 @@
 $shadows-small: multiple-box-shadow(700); // Small stars
 $shadows-medium: multiple-box-shadow(200); // Medium stars
 $shadows-big: multiple-box-shadow(100); // Big stars
-
+  
+  #stars {
+    width: 1px;
+    height: 1px;
+    box-shadow: $shadows-medium; // Apply medium star shadows
+    animation: animStar 100s linear infinite;
+    &::after {
+      width: 1px;
+      height: 1px;
+      box-shadow: $shadows-small; // Apply medium star shadows to pseudo-element
+    }
+  }
 
   #stars2 {
     width: 2px;
