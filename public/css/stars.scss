@@ -10,6 +10,31 @@
 $shadows-small: multiple-box-shadow(700); // Small stars
 $shadows-medium: multiple-box-shadow(200); // Medium stars
 $shadows-big: multiple-box-shadow(100); // Big stars
+
+
+// Styling for the star layers container
+.star-layers {
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #85cb33 0%, #100b00 100%);
+  overflow: hidden;
+  position: relative;
+
+  // Styling for each star layer
+  .star-layer {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 2000px;
+      width: 1px;
+      height: 1px;
+      background: transparent;
+    }
+  }
   
   #stars {
     width: 1px;
@@ -45,3 +70,4 @@ $shadows-big: multiple-box-shadow(100); // Big stars
       box-shadow: $shadows-big; // Apply big star shadows to pseudo-element
     }
   }
+}
