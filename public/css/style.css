@@ -13,7 +13,7 @@ header {
 html {
   background: linear-gradient(0deg,rgba(173, 123, 94, 1) 0%, rgba(50, 73, 122, 1) 51%, rgba(14, 15, 33, 1) 100%);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   background-size: cover;
   background-attachment: scroll;
   min-height: 100vh;
@@ -81,22 +81,6 @@ text {
 
 .post-snippet h3 {
   margin-bottom: 0.25rem;
-}
-
-@keyframes topBarAnimate {
-  0% { background-color: red; }
-  25% { background-color: yellow;}
-  50% { background-color: green; }
-  75% { background-color: blue;}
-  100% { background-color: purple;}
-}
-
-div {
-  width: 100%;
-  height: 10%;
-  background-color: red;
-  animation-name: topBarAnimate;
-  animation-duration: 5s;
 }
 
 /* I got this from a medium article:
