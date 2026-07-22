@@ -15,9 +15,12 @@ $shadows-big: multiple-box-shadow(100); // Big stars
 // Styling for the star layers container
 .star-layers {
   height: 100vh;
-  overflow: hidden;
-  position: relative;
+  overflow: visible;
+  position: fixed;
   max-width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
 
   // Styling for each star layer
   .star-layer {
